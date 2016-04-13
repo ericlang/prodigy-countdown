@@ -1,0 +1,11 @@
+{
+  "name": "prodigy-countdown",
+  "version": "1.0.0",
+  "description": "Implement countdown using React and REST services",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "author": "ProdigyDevTeam",
+  "license": "ISC"
+}
