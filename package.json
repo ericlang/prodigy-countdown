@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Implement countdown using React and REST services",
   "main": "index.js",
-  "scripts": {
-   
-  },
+  "scripts": {},
   "author": "ProdigyDevTeam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.13.4",
+    "moment": "^2.12.0"
+  }
 }
