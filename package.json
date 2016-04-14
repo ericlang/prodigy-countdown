@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Implement countdown using React and REST services",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "npm install && npm run bower && npm run start",
+    "bower": "bower install",
+    "start": "node ./App/index.js",
+    "test": "npm run test-node",
+    "test-node": "mocha ./Test"
+  },
   "author": "ProdigyDevTeam",
   "license": "ISC",
   "dependencies": {
